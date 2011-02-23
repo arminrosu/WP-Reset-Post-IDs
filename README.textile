@@ -1,0 +1,15 @@
+h1. Wordpress Reset Post ID's
+
+Reset Post IDs in order of publish date. It was written to fix IDs after importing tumblr posts, with "Tumblr2Wordpress":http://haochen.me/tumblr/, which are assigned their tumblr ID, resulting in breaking some plugins (e.g. 'Add Linked Images To Gallery'). 
+
+*WARNING: Use only on new installs and at your own risk. Attachments aren't updated.*
+
+h2. INSTALL
+
+# Copy WP-Reset-Post-IDs to your webserver
+# Update config.php with your Wordpress database connection details (check your wp-config.php file, if not sure)
+# Access WP-Reset-Post-IDs in your browser. IDs are updated and results output.
+
+h2. LICENSE
+
+WP-Reset-Post-IDs is licensend under "Creative Commons Attribution 3.0 Romania License":http://creativecommons.org/licenses/by/3.0/ro/
